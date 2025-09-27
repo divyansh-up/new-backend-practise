@@ -1,0 +1,23 @@
+{
+  "name": "hwb",
+  "version": "1.0.0",
+  "description": "biggies restaurant backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "final",
+    "backend"
+  ],
+  "author": "divyansh agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.18.2",
+    "moongoose": "^0.0.5"
+  }
+}
