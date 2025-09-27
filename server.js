@@ -9,7 +9,7 @@ const personroutes=require('./routers/personroutes');
 app.use('/person',personroutes);
  
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("server is running");
 });
 
